@@ -110,11 +110,9 @@ body {
 }
 
 .btn-inline {
-  /* color: #F59A83; */
   color: #084B83;
   font-size: 1.2rem;
   border: none;
-  /* background-color: #F9F5F3; */
   background-color: #F2EFEE;
   padding: .8rem 1.2rem;
   border-radius: 10rem;
@@ -136,7 +134,6 @@ body {
 }
 
 .btn-inline:hover {
-  /* color: #F48982; */
   color: #084B83;
   background-color: #d6d6e4;
 }
@@ -156,7 +153,6 @@ body {
 .btn-tiny svg {
   height: 100%;
   width: 100%;
-  /* fill: #F59A83; */
   fill: #084B83;
   transition: all .3s;
 }
@@ -166,14 +162,12 @@ body {
 }
 
 .btn-tiny:hover svg {
-  /* fill: #F48982; */
-  fill: #084B83;
+  fill: #0275d8;
   transform: translateY(-1px);
 }
 
 .btn-tiny:active svg {
-  /* fill: #F48982; */
-  fill: #084B83;
+  fill: #0275d8;
   transform: translateY(0);
 }
 
@@ -210,7 +204,7 @@ body {
 .loader svg {
   height: 5.5rem;
   width: 5.5rem;
-  fill: #084B83;
+  fill: #0275d8;
   transform-origin: 44% 50%;
   animation: rotate 1.5s infinite linear;
 }
@@ -296,7 +290,7 @@ body {
 }
 
 .likes__icon {
-  fill: #084B83;
+  fill: #0275d8;
   height: 3.75rem;
   width: 3.75rem;
 }
@@ -339,14 +333,12 @@ body {
 
 .results__link:hover,
 .likes__link:hover {
-  /* background-color: #F9F5F3; */
   background-color: #d6d6e4;
   transform: translateY(-2px);
 }
 
 .results__link--active,
 .likes__link--active {
-  /* background-color: #F9F5F3; */
   background-color: #d6d6e4;
 }
 
@@ -386,7 +378,6 @@ body {
 .results__name,
 .likes__name {
   font-size: 1.3rem;
-  /* color: #F59A83; */
   color: #084B83;
   text-transform: uppercase;
   font-weight: 600;
@@ -445,7 +436,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /* background-image: linear-gradient(to right bottom, #FBDB89, #F48982); */
   background-image: linear-gradient(to right bottom, #cffb89, #8284f4);
   opacity: 0.5;
 }
@@ -476,7 +466,6 @@ body {
   box-decoration-break: clone;
   padding: 1.3rem 2rem;
   background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
-  /* background-image: linear-gradient(to right bottom, #cffb89, #8284f4); */
 }
 
 .recipe__details {
@@ -499,8 +488,7 @@ body {
 .recipe__info-icon {
   height: 2rem;
   width: 2rem;
-  /* fill: #F59A83; */
-  fill: #084B83;
+  fill: #0275d8;
   margin-right: 1rem;
 }
 
@@ -578,10 +566,8 @@ body {
 .recipe__icon {
   height: 1.8rem;
   width: 1.8rem;
-  /* fill: #F59A83; */
-  fill: #084B83;
-  /* border: 1px solid #F59A83; */
-  border: 1px solid #084B83;
+  fill: #0275d8;
+  border: 1px solid #0275d8;
   border-radius: 50%;
   padding: 2px;
   margin-right: 1rem;
